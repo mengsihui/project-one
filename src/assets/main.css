@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import './base.css';
 
 #app {
@@ -6,17 +7,28 @@
   padding: 2rem;
   font-weight: normal;
 }
+=======
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./variable.css');
+>>>>>>> a74548e7471c3c029fdb6f2d4457f036bb9991c8
 
 a,
 .green {
   text-decoration: none;
+<<<<<<< HEAD
   color: hsla(160, 100%, 37%, 1);
   transition: 0.4s;
   padding: 3px;
+=======
+  color: hsl(160deg 100% 37% / 100%);
+  transition: 0.4s;
+>>>>>>> a74548e7471c3c029fdb6f2d4457f036bb9991c8
 }
 
 @media (hover: hover) {
   a:hover {
+<<<<<<< HEAD
     background-color: hsla(160, 100%, 37%, 0.2);
   }
 }
@@ -31,5 +43,15 @@ a,
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
+=======
+    background-color: hsl(160deg 100% 37% / 20%);
+  }
+}
+
+@media (width >= 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+>>>>>>> a74548e7471c3c029fdb6f2d4457f036bb9991c8
   }
 }

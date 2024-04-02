@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;
@@ -50,12 +51,17 @@
   }
 }
 
+=======
+>>>>>>> a74548e7471c3c029fdb6f2d4457f036bb9991c8
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
+<<<<<<< HEAD
   font-weight: normal;
+=======
+>>>>>>> a74548e7471c3c029fdb6f2d4457f036bb9991c8
 }
 
 body {
@@ -75,6 +81,7 @@ body {
     Oxygen,
     Ubuntu,
     Cantarell,
+<<<<<<< HEAD
     'Fira Sans',
     'Droid Sans',
     'Helvetica Neue',
@@ -84,3 +91,39 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+=======
+    'Open Sans',
+    'Helvetica Neue',
+    'Icons16',
+    sans-serif;
+  font-size: var(--font-size-normal);
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* .tiny-scrollbar::-webkit-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-gray-400) var(--color-gray-100);
+} */
+
+/* width */
+.tiny-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+.tiny-scrollbar::-webkit-scrollbar-track {
+  background: var(--color-gray-100);
+}
+
+/* Handle */
+.tiny-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: var(--color-gray-400);
+}
+
+.i-icon {
+  line-height: 0;
+}
+>>>>>>> a74548e7471c3c029fdb6f2d4457f036bb9991c8

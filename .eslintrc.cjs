@@ -9,6 +9,19 @@ module.exports = {
     '@vue/eslint-config-typescript',
     '@vue/eslint-config-prettier/skip-formatting'
   ],
+<<<<<<< HEAD
+=======
+  overrides: [
+    {
+      files: [
+        'cypress/e2e/**/*.{cy,spec}.{js,ts,jsx,tsx}'
+      ],
+      'extends': [
+        'plugin:cypress/recommended'
+      ]
+    }
+  ],
+>>>>>>> a74548e7471c3c029fdb6f2d4457f036bb9991c8
   parserOptions: {
     ecmaVersion: 'latest'
   }

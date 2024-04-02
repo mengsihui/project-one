@@ -9,11 +9,15 @@
   ],
   "compilerOptions": {
     "composite": true,
+<<<<<<< HEAD
     "noEmit": true,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
 
     "module": "ESNext",
     "moduleResolution": "Bundler",
+=======
+    "module": "ESNext",
+>>>>>>> a74548e7471c3c029fdb6f2d4457f036bb9991c8
     "types": ["node"]
   }
 }

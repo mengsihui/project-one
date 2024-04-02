@@ -6,4 +6,8 @@ optimizelegibility
 pinia
 tiptap
 vuedraggable
+<<<<<<< HEAD
 vuejs
+=======
+vuejs
+>>>>>>> a74548e7471c3c029fdb6f2d4457f036bb9991c8

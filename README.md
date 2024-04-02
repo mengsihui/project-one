@@ -1,5 +1,6 @@
 # project-one
 
+<<<<<<< HEAD
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
@@ -43,3 +44,27 @@ npm run test:unit
 ```sh
 npm run lint
 ```
+=======
+## Project setup
+```
+pnpm install
+```
+
+### Compiles and hot-reloads for development
+```
+pnpm run serve
+```
+
+### Compiles and minifies for production
+```
+pnpm run build
+```
+
+### Lints and fixes files
+```
+pnpm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+>>>>>>> a74548e7471c3c029fdb6f2d4457f036bb9991c8

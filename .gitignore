@@ -17,6 +17,11 @@ coverage
 /cypress/videos/
 /cypress/screenshots/
 
+<<<<<<< HEAD
+=======
+/scripts/*.tsno.mjs
+
+>>>>>>> a74548e7471c3c029fdb6f2d4457f036bb9991c8
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -26,5 +31,8 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+<<<<<<< HEAD
 
 *.tsbuildinfo
+=======
+>>>>>>> a74548e7471c3c029fdb6f2d4457f036bb9991c8

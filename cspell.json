@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "import": ["@cspell/dict-lorem-ipsum/cspell-ext.json"],
     "caseSensitive": false,
     "dictionaries": ["custom-words"],
@@ -12,3 +13,17 @@
     "ignorePaths": ["**/node_modules/**", "**/dist/**", "**/lib/**", "**/docs/**", "**/stats.html"]
   }
   
+=======
+  "import": ["@cspell/dict-lorem-ipsum/cspell-ext.json"],
+  "caseSensitive": false,
+  "dictionaries": ["custom-words"],
+  "dictionaryDefinitions": [
+    {
+      "name": "custom-words",
+      "path": "./.cspell/custom-words.txt",
+      "addWords": true
+    }
+  ],
+  "ignorePaths": ["**/node_modules/**", "**/dist/**", "**/lib/**", "**/docs/**", "**/stats.html"]
+}
+>>>>>>> a74548e7471c3c029fdb6f2d4457f036bb9991c8

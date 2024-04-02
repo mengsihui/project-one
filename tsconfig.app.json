@@ -4,8 +4,11 @@
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
     "composite": true,
+<<<<<<< HEAD
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
 
+=======
+>>>>>>> a74548e7471c3c029fdb6f2d4457f036bb9991c8
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]

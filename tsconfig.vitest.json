@@ -3,8 +3,11 @@
   "exclude": [],
   "compilerOptions": {
     "composite": true,
+<<<<<<< HEAD
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.vitest.tsbuildinfo",
 
+=======
+>>>>>>> a74548e7471c3c029fdb6f2d4457f036bb9991c8
     "lib": [],
     "types": ["node", "jsdom"]
   }
